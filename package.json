@@ -1,0 +1,39 @@
+{
+  "name": "citrend",
+  "version": "0.1.0",
+  "description": "Track your GitHub Actions success rate and wasted compute over time — local history, weekly trend, no dashboard account. Zero dependencies.",
+  "bin": {
+    "citrend": "bin/cli.js"
+  },
+  "main": "src/core.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "ci",
+    "github-actions",
+    "devops",
+    "cli",
+    "monitoring",
+    "reliability",
+    "pipeline"
+  ],
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjdoor/citrend.git"
+  },
+  "homepage": "https://github.com/jjdoor/citrend#readme",
+  "bugs": {
+    "url": "https://github.com/jjdoor/citrend/issues"
+  }
+}
